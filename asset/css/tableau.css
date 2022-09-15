@@ -1,0 +1,48 @@
+header{
+    display: flex;
+}
+h2{ 
+    margin: auto;
+}
+nav{
+    padding: 5px; 
+    background-color: black;
+    margin-bottom: 5px;
+    
+}
+li{
+    display: inline;
+}
+a{
+    color: white;
+}
+#tableau{
+    font-style: italic;
+    border-bottom: solid rgb(215, 207, 207);
+    padding-bottom: 20px;
+    width: 98%;
+}
+footer{
+    padding: 5px;
+    background-color: black;
+    margin-top: 10px;
+}
+th{
+    color: brown;
+    font-style: italic;
+}
+aside{
+    display: flex;
+    background: rgb(116, 113, 113);
+    width: 30%
+}
+
+.colonne1{
+    display: flex;
+}
+td{
+    font-style: italic;
+}
+section{
+    width: 70%;
+}
