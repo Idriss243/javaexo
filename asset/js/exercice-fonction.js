@@ -1,18 +1,27 @@
-/*function produit(x,y) 
-{
+function produit(x,y) 
+{ 
+
   var resultat = x*y;
-  return resultat; 
+  cube = x**3 ;
+  document.write("Le produit de "+x+"x"+y+" est egal à "+resultat+"<br>"+"Le cube de "+x+" est égal à "+cube);
+  return resultat;
+
 }
-var resultat2 = produit(4,6);
-console.log(resultat2)
+var resultat2 = produit(prompt("Entrez un nombre"),prompt("Entrez un multiplicateur"));
+console.log(resultat2);
+
 
 function afficheImg(image) 
 {
-  var resultat = x*y;
-  return resultat; 
+  
+ var img1 = document.getElementById("img1") ;
+   
 }
-var resultat2 = produit(4,6);
-console.log(resultat2)*/
+ img1.innerHTML= "<img src = https://ncode.amorce.org/ressources/Pool/TB_DEV/WEB_Javascript_BASES/images/papillon.jpg>";
 
- var img1 = document.getElementById("img1")
- img1.innerHTML= "<img src = asset/images/papillon.jpg>";
+ /*function strtok(str1, str2, n)
+ {
+    const words =str1.split(str2);
+    alert( words[n-1]) ;
+ }
+ strtok("robert.dupont.amiens.8000",".", 3)*/
