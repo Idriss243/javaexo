@@ -16,7 +16,8 @@
        } while (SaisieTab)
 }
 var tableau = tableau ()
-console.log(tableau)*/
+console.log(tableau)
+alert("les prénoms sont :"+tableau)*/
 
 
 /*var N = 9
@@ -48,15 +49,7 @@ function tableau ()
       console.log(nbposte)
       console.log(tableau)
        } while (SaisieTab)
-}
-var tableau = tableau () ;
-console.log(tableau) ;
-
-const initialValue = 0;
-const sumWithInitial = tableau.reduce((previousValue, currentValue) => previousValue + currentValue, initialValue);
-console.log("la somme des valeurs = "+sumWithInitial);
-console.log("la moyenne est "+sumWithInitial/tableau.length);*/
-
+} Week-end 
 /*function multiple ()
 { 
     var i = 1
@@ -90,7 +83,7 @@ function getVowels(str) {
   }
   var nbvoyelle = getVowels(prompt(" Combien des voyelles sont-elles? "))
   console.log("Le(s) voyelle(s) est/sont : "+nbvoyelle);
-  console.log(typeof(nbvoyelle))
+  
 
 
 

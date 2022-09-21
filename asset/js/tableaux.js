@@ -35,11 +35,11 @@ console.log(myTableau);
 function SaisieTab ()
 {
     for (var i = 0; i < myTableau.length; i++) 
-{
-   myTableau[i] = Number(GetInteger(prompt("Donnez un entier")));
-   console.log("Contenu du poste: ["+i+"] : "+myTableau[i]);
-}
-   return myTableau;
+   {
+     myTableau[i] = Number(GetInteger(prompt("Donnez un entier")));
+     console.log("Contenu du poste: ["+i+"] : "+myTableau[i]);
+   }
+    return myTableau;
 
 }
 var myTableau = SaisieTab ();
@@ -78,12 +78,16 @@ function InfoTab ()
 }   
 InfoTab ()
 
-function sort(myTableau){
+function sort(myTableau)
+{
     var changed;var tableau = tableau 
-    do{
+    do
+    {
         changed = false;
-        for(var i=0; i < myTableau.length-1; i++) {
-            if(myTableau[i] > myTableau[i+1]) {
+        for(var i=0; i < myTableau.length-1; i++) 
+        {
+            if(myTableau[i] > myTableau[i+1]) 
+            {
                 var tmp = myTableau[i];
                 myTableau[i] = myTableau[i+1];
                 myTableau[i+1] = tmp;
