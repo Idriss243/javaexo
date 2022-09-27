@@ -63,7 +63,7 @@ function tableau ()
        } while (i <= N)
 }
 multiple () ;*/
-
+ 
 
 function getVowels(str) {
     var vowelsCount = 0;

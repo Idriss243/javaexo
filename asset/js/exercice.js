@@ -21,6 +21,8 @@ console.log(a)
 console.log(b)
 console.log(c)
 console.log(d)
+
+
 /*var age = 19;
 
 (age >= 18) ? console.log("Vous êtes majeur") : console.log("Vous êtes mineur");*/
@@ -45,6 +47,8 @@ else
 {
     window.alert("Tu as "+age+" ans mineur") ;
 }*/
+
+
 /*var nb = "8";
 console.log(nb)
 console.log(typeof nb)
